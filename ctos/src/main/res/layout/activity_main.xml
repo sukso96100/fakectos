@@ -1,0 +1,172 @@
+
+
+
+    <android.support.v4.widget.SlidingPaneLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pane2"
+            android:background="#cc000000">
+        <LinearLayout
+            android:id="@+id/pan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#cc000000"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <CheckBox
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Disturb WCDMA"
+                android:id="@+id/dwcdma"
+                android:background="@drawable/cardbg"/>
+
+            <CheckBox
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Block WCDMA"
+                android:id="@+id/bwcdma"
+                android:background="@drawable/cardbg"/>
+
+            <CheckBox
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Disturb LTE/LTE-A"
+                android:id="@+id/dlte"
+                android:background="@drawable/cardbg"/>
+
+            <CheckBox
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Block LTE/LTE-A"
+                android:id="@+id/blte"
+                android:background="@drawable/cardbg"/>
+
+            <CheckBox
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Disturb GSM"
+                android:id="@+id/dgsm"
+                android:background="@drawable/cardbg"/>
+
+            <CheckBox
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Block GSM"
+                android:id="@+id/bgsm"
+                android:background="@drawable/cardbg"/>
+
+            <CheckBox
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Disturb Wired Network"
+                android:id="@+id/dwn"
+                android:background="@drawable/cardbg"/>
+
+            <CheckBox
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Block Wired Network"
+                android:id="@+id/bwn"
+                android:background="@drawable/cardbg"/>
+
+            <CheckBox
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Block Electricity Supply"
+                android:id="@+id/becity"
+                android:background="@drawable/cardbg"/>
+
+            <CheckBox
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Disturb Traffic Signal"
+                android:id="@+id/dts"
+                android:background="@drawable/cardbg"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/pane1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#CC00FF00">
+            <org.osmdroid.views.MapView
+                android:id="@+id/mapview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tilesource="Mapnik"
+                />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="Hack Now"
+                android:id="@+id/button"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/circlebtn"
+                android:textColor="@drawable/circlebtncolor"/>
+            </RelativeLayout>
+
+
+    </android.support.v4.widget.SlidingPaneLayout>
+

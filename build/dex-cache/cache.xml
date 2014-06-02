@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/youngbin/android/ctOS/ctos/build/pre-dexed/debug/osmdroid-android-4.2-7d0e50d22ff5cfce1c0e5e779a2a565dca15e39c.jar"
+        jar="/home/youngbin/android/ctOS/ctos/libs/osmdroid-android-4.2.jar"
+        jumboMode="false"
+        revision="19.0.3"
+        sha1="f3a0c73a9ed04a5d0959789c53da9f08462bfcc2"/>
+    <item
+        dex="/home/youngbin/android/ctOS/ctos/build/pre-dexed/debug/slf4j-android-1.6.1-RC1-764467c31bfe6fe843afeaf08c606951918c7152.jar"
+        jar="/home/youngbin/android/ctOS/ctos/libs/slf4j-android-1.6.1-RC1.jar"
+        jumboMode="false"
+        revision="19.0.3"
+        sha1="a0b527e8aabcc1f1e97d1674dc3f4f0794ec5df1"/>
+    <item
+        dex="/home/youngbin/android/ctOS/ctos/build/pre-dexed/debug/classes-3a36ab5cdf11a5a2177db3ebad53470645fc45de.jar"
+        jar="/home/youngbin/android/ctOS/build/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="19.0.3"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="/home/youngbin/android/ctOS/ctos/build/pre-dexed/debug/support-v4-19.1.0-bfe6379f31d17615f5ca4b83bd0a7235fba0720f.jar"
+        jar="/usr/share/android-studio/data/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.0.3"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+
+</pre-dex-items>
